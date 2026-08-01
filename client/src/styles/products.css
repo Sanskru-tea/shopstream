@@ -1,0 +1,41 @@
+.products-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 6rem;
+}
+
+.products-header {
+  margin-bottom: 1.5rem;
+}
+
+.products-header h1 {
+  margin-bottom: 0.15em;
+}
+
+.products-toolbar {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.search-input {
+  flex: 2;
+  min-width: 200px;
+}
+
+.products-toolbar select {
+  flex: 1;
+  min-width: 160px;
+}
+
+@media (max-width: 620px) {
+  .products-toolbar {
+    flex-direction: column;
+  }
+}
