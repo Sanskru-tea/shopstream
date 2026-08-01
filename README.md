@@ -107,7 +107,7 @@ npm install
 
 ### Environment variables (optional)
 
-By default the app calls `http://localhost:5000/api`. To point elsewhere, create a
+By default the app calls ` https://shopstream-5gkj.onrender.com`. To point elsewhere, create a
 `.env` file in `client/`:
 
 ```env
