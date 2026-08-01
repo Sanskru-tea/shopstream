@@ -8,7 +8,7 @@ const productRoutes = require('./routes/products');
 const cartRoutes = require('./routes/cart');
 
 const app = express();
-
+app.use(cors());
 // Middleware
 app.use(cors()); // allow all origins (you can restrict later)
 app.use(express.json()); // parse JSON bodies
